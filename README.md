@@ -1,2 +1,3 @@
 # TareaAOP
-![Image](https://github.com/user-attachments/assets/4c98c3c7-583b-447d-a69c-ab77d6c65d6b)
+Diagrama de clase Base de Datos (Diseño de Patron Singleton)
+![Image](https://github.com/user-attachments/assets/dcf21122-b598-47c5-a69c-88556e1ad5a3)
