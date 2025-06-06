@@ -8,7 +8,7 @@ import org.aspectj.lang.ProceedingJoinPoint;
 public class SingletonAspect {
     private ConexionBaseDeDatos instancia;
 
-    @Around("execution(Adapter.SingletonAOP.ConexionBaseDeDatos.new(..)) && args(cadenaConexion)")
+    @Around("execution(Singleton.AOP.ConexionBaseDeDatos.new(..)) && args(cadenaConexion)")
     public Object interceptarConstructor(ProceedingJoinPoint pjp, String cadenaConexion) throws Throwable {
         if (instancia == null) {
             instancia = new ConexionBaseDeDatos(cadenaConexion);
