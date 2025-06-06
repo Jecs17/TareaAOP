@@ -1,4 +1,4 @@
-package Adapter.Singleton;
+package Singleton.OOP;
 public class BaseDeDatos {
     public static void main(String[] args) {
         ConexionBaseDeDatos db1 = ConexionBaseDeDatos.getInstancia("jdbc:mysql://localhost:3306/mi_basedatos");

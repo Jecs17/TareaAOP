@@ -1,4 +1,4 @@
-package Adapter.Singleton;
+package Singleton.OOP;
 public class ConexionBaseDeDatos{
     // Instancia única (Singleton)
     private static ConexionBaseDeDatos instancia;

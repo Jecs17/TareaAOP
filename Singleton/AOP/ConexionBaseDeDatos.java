@@ -1,4 +1,4 @@
-package Adapter.SingletonAOP;
+package Singleton.AOP;
 
 public class ConexionBaseDeDatos {
     private String cadenaConexion;

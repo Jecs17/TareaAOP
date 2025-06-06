@@ -1,4 +1,4 @@
-package Adapter.SingletonAOP;
+package Singleton.AOP;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Around;
